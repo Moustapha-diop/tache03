@@ -1,0 +1,182 @@
+@media screen {
+    
+form{
+   height: 500px;
+   width: 700px;
+}
+
+.right{
+    display: flex;
+    flex-direction: row;
+    width: 60%;
+    margin-top: 50px;
+}
+
+.right1{
+    margin-left: 100px;
+}
+
+.pay{
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+}
+
+.cash{
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 20px;
+    line-height: 10px;
+    display: inline;
+}
+
+
+
+
+.cheque{
+    display: flex;
+    flex-direction: row;
+    /*margin-bottom: 20px;
+    line-height: 10px;
+    display: block;*/
+}
+
+.cheque input[type="radio"]{
+    margin-bottom: 20px;
+}
+
+.demand{
+    display: flex;
+    flex-direction: row;
+    /*margin-bottom: 20px;
+    line-height: 10px;
+    display: inline;*/
+}
+
+input[type="text"]{
+    width: 350px;
+    
+}
+
+input[type="email"]{
+    width: 350px;
+    
+}
+input[type="tel"]{
+    width: 350px;
+    
+}
+
+.demand input[type="radio"]{
+    margin-bottom: 20px;
+    color: mediumseagreen;
+}
+
+span{
+    float: right;
+    margin-left: 150px;
+    text-decoration: underline;
+    font-size: 10px;
+}
+
+.pay{
+    margin-bottom: 0;
+}
+
+input[type="submit"]{
+    padding: 10px;
+    color: bisque;
+    background-color: mediumseagreen;
+    border: 1px solid mediumseagreen;
+    border-radius: 2px;
+    margin-top: 50px;
+}
+.reset input[type="submit"]{
+    background-color: white;
+    color: rgb(72, 69, 69);
+    border-right: 1px solid mediumseagreen;
+}
+
+.submit{
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+    float: right;
+}
+
+input[type="radio"]{
+    color: mediumseagreen;
+}
+
+.fn input[type="text"]{
+    border: 1px solid mediumseagreen ;
+    border-radius: 5px;
+}
+
+.ln input[type="text"]{
+    border: 1px solid red;
+    border-radius: 5px;
+}
+
+
+button{
+    width: 360px;
+    height: 30px;
+    border: none;
+    border-bottom: 2px solid bisque;
+    background-color: white;
+}
+
+.don{
+    border-bottom: 2px solid mediumseagreen;
+    text-align: start;
+    
+
+}
+
+.milieu{
+    border: 2px solid mediumseagreen;
+    background-color: mediumseagreen;
+    margin-top: 300px;
+    color: white;
+    padding: 0;
+    height: 30px;
+}
+
+.milieu p{
+    line-height:0px ;
+}
+
+.glob{
+    display: flex;
+    flex-direction: row;
+}
+
+
+
+h1{
+    background-image: url(jamal3.jpeg);
+    width: 40%;
+    text-align: center;
+    color: white;
+    line-height: 400px;
+    opacity: 0.6 ;
+    color: black;
+}
+body{
+    border-top: none;
+    border-left: 1px solid black;
+    border-bottom: 1px solid black;
+    border-right: 1px solid black;
+    width: 1300px;
+}
+
+.hr1{
+    border: 1px solid mediumseagreen;
+}
+
+.hr2{
+    margin-top: 52px;
+}
+
+} 

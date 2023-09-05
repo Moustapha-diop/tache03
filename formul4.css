@@ -1,0 +1,258 @@
+form{
+    background-color: white;
+    display: flex;
+    flex-direction: row;
+    height: 100%;
+    width: 100%;
+    text-align: left;
+}
+
+.right{
+    background-color: rgb(29, 13, 2);
+    color: white;
+    text-align: start;
+    width: 50%;
+    height: 600px;
+}
+
+img{
+    height: 600px;
+}
+
+
+.left{
+    width: 50%;
+    height: 700px;
+}
+
+.right input[type="text"] {
+    border: none;
+    border-bottom: 1px solid white;
+    outline: none;
+    background-color: rgb(29, 13, 2);
+    color: white;
+}
+
+.right input[type="tel"] {
+    border: none;
+    border-bottom: 1px solid white;
+    outline: none;
+    background-color: rgb(29, 13, 2);
+    color: white;
+}
+
+.right input[type="time"] {
+    border: none;
+    border-bottom: 1px solid white;
+    outline: none;
+    background-color: rgb(29, 13, 2);
+    color: white;
+}
+
+select{
+    border: none;
+    border-bottom: 1px solid white;
+    outline: none;
+    background-color: rgb(29, 13, 2);
+    color: white;
+}
+
+.right .name,
+.right .num,
+.right .time,
+.right .food,
+.right .person,
+.right p,
+.right input[type="submit"]{
+    margin-left: 100px;
+    margin-right: 100px;
+}
+
+.name label:focus{
+    color: chocolate;
+}
+
+
+input[type="text"]:focus{
+    border-bottom: 1px  solid chocolate;
+}
+
+.name label:focus{
+    color: chocolate;
+}
+
+select:focus{
+    border-bottom: 1px solid chocolate;
+}
+
+input[type="tel"]:focus{
+    border-bottom: 1px  solid chocolate;
+}
+
+input[type="time"]:focus{
+    border-bottom: 1px  solid chocolate;
+}
+
+input[type="submit"]{
+    height: 30px;
+    width: 100px;
+    background-color: chocolate;
+}
+
+.submit p{
+    color: chocolate;
+}
+
+h1{
+    margin-left: 100px;
+}
+
+.name{
+    display: flex;
+    flex-direction: column;
+}
+
+.num{
+    display: flex;
+    flex-direction: column;
+}
+
+.time{
+    display: flex;
+    flex-direction: column;
+}
+
+.food{
+    display: flex;
+    flex-direction: column;
+}
+
+
+.person p{
+    margin-left: 0;
+}
+
+.per{
+    display: flex;
+    flex-direction: row;
+    gap: 50px;
+}
+
+.per2{
+    display: grid;
+    grid-template-columns: 0;
+    grid-template-rows: 0;
+}
+
+
+.per2 input[type="radio"]{
+    width: 30px;
+    height: 30px;
+    background-color: rgba(244, 240, 240, 0.5);
+}
+
+.per2 label{
+    color: black;
+    padding-left: 15px;
+    padding-top: 10px;
+}
+
+
+.per4{
+    display: grid;
+    grid-template-columns: 0;
+    grid-template-rows: 0;
+}
+
+
+.per4 input[type="radio"]{
+    width: 30px;
+    height: 30px;
+    background-color: rgba(244, 240, 240, 0.5);
+}
+
+.per4 label{
+    color: black;
+    padding-left: 15px;
+    padding-top: 10px;
+}
+
+.per6{
+    display: grid;
+    grid-template-columns: 0;
+    grid-template-rows: 0;
+}
+
+
+.per6 input[type="radio"]{
+    width: 30px;
+    height: 30px;
+    background-color: rgba(244, 240, 240, 0.5);
+}
+
+.per6 label{
+    color: black;
+    padding-left: 15px;
+    padding-top: 10px;
+}
+
+.per8{
+    display: grid;
+    grid-template-columns: 0;
+    grid-template-rows: 0;
+}
+
+
+.per8 input[type="radio"]{
+    width: 30px;
+    height: 30px;
+    background-color: rgba(244, 240, 240, 0.5);
+}
+
+.per8 label{
+    color: black;
+    padding-left: 15px;
+    padding-top: 10px;
+}
+
+.per10{
+    display: grid;
+    grid-template-columns: 0;
+    grid-template-rows: 0;
+}
+
+
+.per10 input[type="radio"]{
+    width: 30px;
+    height: 30px;
+    background-color: rgba(244, 240, 240, 0.5);
+}
+.per10 label{
+    color: black;
+    padding-left: 13px;
+    padding-top: 10px;
+}
+
+.per2 label:focus{
+    color: white;
+    background-color: black;
+
+}
+
+.per22{
+    margin-top: 8px;
+}
+
+/*.per22:active{
+    height: 20px;
+    width: 60px;
+    background-color: chocolate;
+    border: 1px solid black;
+    border-radius: 15px;
+}*/
+
+.per2 input[type="radio"]:focus{
+    width: 100px;
+    height: 40px;
+    color:chocolate ;
+}

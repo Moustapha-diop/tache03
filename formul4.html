@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>registration-form</title>
+        <meta charset="utf-8">
+        <link rel="stylesheet" href="formul4.css">
+    </head>
+    <body>
+<section class="sec2">
+    <form method="post" action="registration">
+        <div class="left">
+            <img src="verre1.jpg">
+        </div>
+        <div class="right">
+            <legend><h1>booking place for your dinner!</h1></legend>
+           
+          <div class="name">
+            <label for="name">Your name </label>
+            <input type="text" id="name" name="name"><br><br>
+          </div>
+           
+           <div class="num">
+            <label for="number">Your Phone number</label>
+            <input type="tel" id="number" name="number"><br><br>
+           </div>
+           
+           <div class="time">
+            <label for="time">Time</label>
+            <input type="time" id="time" name="time"><br><br>
+           </div>
+           
+          <div class="food">
+           <label for="food">Food</label>
+          <select name="food" id="food">
+            <option value=""></option>
+            <option value="pizza">pizza</option>
+            <option value="burger">burger</option>
+            <option value="local">local</option>
+           </select><br><br>
+          </div>
+            
+          <div class="person">
+           <p>select your dinner space</p>
+           <div class="per">
+           <div class="per2">
+                <input type="radio" name="person" value="2person">
+                <label for="person">2</label>
+           </div>
+
+           <div class="per4">
+                <input type="radio" name="person" value="4person">
+                <label for="4person">4</label>
+           </div>
+
+           <div class="per6">
+                <input type="radio" name="person" value="6person">
+                <label for="6person">6</label>
+           </div>
+
+           <div class="per8">
+                <input type="radio" name="person" value="8person">
+                <label for="8person">8</label>
+           </div>
+
+           <div class="per10">
+                <input type="radio" name="person" value="10person">
+                <label for="10person">10</label><br><br><br>
+           </div><br><br>
+        </div>
+          </div>
+
+          <div class="submit">
+           <input type="submit" value="Book now">
+           <p>verifie your booking into your phone</p>
+          </div>
+        </div>
+    </form>
+   </section>
+</body>
+</html>
